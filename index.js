@@ -33,4 +33,7 @@ app.listen(PORT, ()=>
 {
     console.log(`http://localhost:${PORT}`)
 })
-
+//test route
+app.get("/", (req, res) => {
+    res.send("Welcome to the server!");
+});
