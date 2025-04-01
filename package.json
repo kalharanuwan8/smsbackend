@@ -5,18 +5,14 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "build": "echo \"No build needed for Node.js server\" && exit 0",
-    "vercel-build": "npm install && npm run build"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "express": "^4.21.2"
-  },
   "dependencies": {
+    "express": "^4.21.2",
     "@supabase/supabase-js": "^2.49.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
