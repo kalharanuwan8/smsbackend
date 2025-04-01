@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "build": "echo \"No build needed for Node.js server\""
+    "build": "echo \"No build needed for Node.js server\"",
+    "versel-build": "npm install && npm run build"
   },
   "keywords": [],
   "author": "",
